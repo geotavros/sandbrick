@@ -1,0 +1,114 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "5916"
+	"mapversion" "351"
+	"formatversion" "100"
+	"prefab" "1"
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "32"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "111449"
+	"mapversion" "351"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_tokyo"
+}
+entity
+{
+	"id" "111450"
+	"classname" "func_detail"
+	solid
+	{
+		"id" "111451"
+		side
+		{
+			"id" "15314"
+			"plane" "(-48 -32 446) (-48 32 446) (48 32 446)"
+			"material" "MAPS/ND_LONDON/LD_WALL/LONDON_WALL_SANDSTONE_002C"
+			"uaxis" "[1 0 0 -320] 0.25"
+			"vaxis" "[0 -1 0 -128] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15313"
+			"plane" "(-48 160 0) (-48 -160 0) (48 -160 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15312"
+			"plane" "(-48 -160 0) (-48 160 0) (-48 32 446)"
+			"material" "MAPS/ND_LONDON/LD_WALL/LONDON_WALL_SANDSTONE_002C"
+			"uaxis" "[0 1 0 128] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15311"
+			"plane" "(48 160 0) (48 -160 0) (48 -32 446)"
+			"material" "MAPS/ND_LONDON/LD_WALL/LONDON_WALL_SANDSTONE_002C"
+			"uaxis" "[0 1 0 128] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15310"
+			"plane" "(-48 160 0) (48 160 0) (48 32 446)"
+			"material" "MAPS/ND_LONDON/LD_WALL/LONDON_WALL_SANDSTONE_002C"
+			"uaxis" "[1 0 0 -320] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15309"
+			"plane" "(48 -160 0) (-48 -160 0) (-48 -32 446)"
+			"material" "MAPS/ND_LONDON/LD_WALL/LONDON_WALL_SANDSTONE_002C"
+			"uaxis" "[1 0 0 -320] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 180 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
